@@ -1,0 +1,22 @@
+.contacts{
+    padding:20px;
+    text-align:left;
+    
+}
+.contactlist{
+    background-image:url(../images/chatpage/accepted.png);
+    background-position: 50% 50%;
+    background-repeat:no-repeat;
+    background-color:#ffffff;
+    border:solid 1px black;
+    min-height:400px;    
+}
+.c_list{
+    list-style-type: none;
+    background-color:#d8d8d8;
+    height:40px;
+    text-align:center;
+    font-size:14px;
+    border-bottom: solid 1px black;
+    
+}

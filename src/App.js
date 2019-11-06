@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+import Contactlist from './components/contactslist';
+import Newgroup from './components/newgroupform';
+import Messageform from './components/messageform';
+import Messagelist from './components/messagelist';
 import './App.css';
-
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="contact">
+      <Contactlist/>
+      <Newgroup/>
+      </div>
+     <div className="conversation">
+       <div>
+       <Messagelist/>  
+       </div>
+       <div>
+       <Messageform/>
+       </div>
+      
+     </div>
+      
     </div>
   );
 }

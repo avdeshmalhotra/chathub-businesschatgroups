@@ -1,0 +1,18 @@
+input{
+    border-radius:50px;
+    height:40px;
+    font-size:14px;
+    width:95%;
+}
+.send_btn{
+    background-image:url('../images/chatpage/send.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: 50% 50%;
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    background-color:#00e1ff;
+    vertical-align:middle;
+    margin:2px;
+}
